@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>主页</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Slider
+================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<!---<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>--->
+
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!-- Navigation
+==========================================-->
+<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="index.html">七号公园</a>
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="#tf-home" class="page-scroll">主页</a></li>
+		<li><a href="pm.html" class="page-scroll">PM2.5监测</a></li>
+		<li><a href="video.html" class="page-scroll">视频监控</a></li>
+		<li><a href="#tf-services" class="page-scroll">服务</a></li>
+		<li><a href="#tf-works" class="page-scroll">建议</a></li>
+		<li><a href="#tf-testimonials" class="page-scroll">测试</a></li>
+		<li><a href="#tf-contact" class="page-scroll">联系我</a></li>
+	  </ul>
+	</div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Home Page
+==========================================-->
+<div id="tf-home" class="text-center">
+	<div class="overlay">
+		<div class="content">
+			<h1>欢迎来到 <strong><span class="color">七号公园</span></strong></h1>
+			<p class="lead">专注于 <strong>视频监控</strong> 以及 <strong>PM2.5监测</strong> 的 <strong>高速公路环境空气实时监控系统</strong></p>
+			<a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+		</div>
+	</div>
+</div>
+
+<!-- About Us Page
+==========================================-->
+<div id="tf-about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/02.png" class="img-responsive">
+			</div>
+			<div class="col-md-6">
+				<div class="about-text">
+					<div class="section-title">
+						<h4>about us</h4>
+						<h2>此项目的<strong>目标</strong></h2>
+						<hr>
+						<div class="clearfix"></div>
+					</div>
+					<p class="intro">我试图建立一个高速公路环境空气实时监控系统，实现高速公路上空气质量状况的检测，主要检测值为PM2.5，并辅以摄像头监控，必要时候能够向公路管理人员报警对道路通行进行限制。</p>
+					<ul class="about-list">
+						<li>
+							<span class="fa fa-dot-circle-o"></span>
+							<strong>数据存储</strong> - <em>收集数据及时入库，数据库结构明确清晰</em>
+						</li>
+						<li>
+							<span class="fa fa-dot-circle-o"></span>
+							<strong>友好型界面</strong> - <em>用户对关键信息一目了然，操作简单</em>
+						</li>
+						<li>
+							<span class="fa fa-dot-circle-o"></span>
+							<strong>用户管理</strong> - <em>基本具备网站常用的用户功能</em>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Team Page
+==========================================-->
+<div id="tf-team" class="text-center">
+	<div class="overlay">
+		<div class="container">
+			<div class="section-title center">
+				<h2>PM2.5 <strong>监测</strong></h2>
+				<div class="line">
+					<hr>
+				</div>
+			</div>
+
+			<div id="team" class="owl-carousel owl-theme row">
+
+				<div class="item">
+					<div class="thumbnail">
+						<img src="img/team/02.png" alt="..." class="img-circle team-img">
+						<div class="caption">
+							<h3>PM2.5传感器</h3>
+							<p>实时监测</p>
+							<p>以图表的形式将pm2.5信息展现给用户</p>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<!-- Contact Section
+==========================================-->
+<div id="tf-contact" class="text-center">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+
+				<div class="section-title center">
+					<h2>为 <strong>七号公园</strong>作出建议</h2>
+					<div class="line">
+						<hr>
+					</div>
+					<div class="clearfix"></div>
+					<small><em>体会目前项目完成的进度，并提出宝贵的建议和意见</em></small>            
+				</div>
+
+				<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="exampleInputEmail1">邮箱</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="exampleInputPassword1">密码</label>
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">建议</label>
+						<textarea class="form-control" rows="3"></textarea>
+					</div>
+					
+					<button type="submit" class="btn tf-btn btn-default">提交</button>
+				</form>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<nav id="footer">
+	<div class="container">
+		<div class="pull-left fnav">
+			<p>Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		</div>
+		<div class="pull-right fnav">
+			<ul class="footer-social">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
